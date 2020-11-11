@@ -49,13 +49,6 @@ const Dashboard: React.FC = () => {
     [navigate],
   );
 
-  // const handleSelectProvider = useCallback(
-  //   (providerId: string) => {
-  //     navigation.navigate('AppointmentDatePicker', { providerId });
-  //   },
-  //   [navigation],
-  // );
-
   return (
     <Container>
       <Header>

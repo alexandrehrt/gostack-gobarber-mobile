@@ -63,16 +63,6 @@ const CreateAppointment: React.FC = () => {
     routeParams.providerId,
   );
 
-  // const minimumDate = useMemo(() => {
-  //   const today = new Date();
-
-  //   if (today.getHours() >= 17) {
-  //     return new Date(today.setDate(today.getDate() + 1));
-  //   }
-
-  //   return today;
-  // }, []);
-
   const navigateBack = useCallback(() => {
     goBack();
   }, [goBack]);
